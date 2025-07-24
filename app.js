@@ -18,7 +18,7 @@ app.set("json spaces", 2);
 
 const allowedOrigins = [
 	"https://tinkerpal.com",
-	"https://www.tinkerpal.com"
+	"https://www.tinkerpal.com",
 	"http://localhost:5173",
 	"http://localhost:3001",
 ];
