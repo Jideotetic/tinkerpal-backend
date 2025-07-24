@@ -7,7 +7,7 @@ import { specs } from "./utils/swagger.js";
 import { connectToMongoDB } from "./model/db.js";
 import CustomNotFoundError from "./errors/customNotFoundError.js";
 import CustomBadRequestError from "./errors/customBadRequestError.js";
-import waitListRouter from "./routes/waitlistRouter.js";
+import waitListRouter from "./routes/waitListRouter.js";
 
 const app = express();
 
